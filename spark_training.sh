@@ -10,7 +10,7 @@ echo "export DSS_USER=$DSS_USER" > /tmp/variable.sh
 echo "export YOUR_DSS_USER=data_scientist" >> /tmp/variable.sh
 echo "export YOUR_USER_PASSWORD=Dataiku!@#123" >> /tmp/variable.sh
 echo "export HIVESERVER2_HOST=$HIVESERVER2_HOST" >> /tmp/variable.sh
-echo "export DSS_VERSION=6.0.2" >> /tmp/variable.sh
+echo "export DSS_VERSION=7.0.1" >> /tmp/variable.sh
 echo "export DSS_DESIGN_URL=$DSS_USER-design-$TRAINING_NAME.training.dataiku.com" >> /tmp/variable.sh
 chmod 777 /tmp/variable.sh
 EOF
